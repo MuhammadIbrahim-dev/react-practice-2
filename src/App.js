@@ -3,10 +3,14 @@ import'./App.css';
 import { useState } from 'react';
 
 function App(){
+  // let [count,setCount]=useState(1)
+  //   let displayItem=()=>{
+  //     setCount(count++)
+  //   }
   let [count,setCount]=useState(1)
-    let displayItem=()=>{
-      setCount(count++)
-    }
+  let displayItem=()=>{
+    setCount(count+1)
+  }
 
 return (
     <div className= 'bg-[red] ml-[50px] pt-[50px] text-[40px] c-[white]'>
